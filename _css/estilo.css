@@ -10,6 +10,7 @@
 body
 {
     /*background-image: url("fundo.jpg");*/
+    font-family: Arial, sans-serif;
     background-color: #dddddd;
     color: rgba(0, 0, 0, 0.8);
 }
@@ -29,6 +30,17 @@ p
     text-indent: 50px;
 }
 
+a
+{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
 header#cabecalho img#icone
 {
     position: absolute;
@@ -46,12 +58,13 @@ header#cabecalho
 header#cabecalho h1
 {
     font-family: FonteELogo, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
+    margin-top: 50px;
+    margin-left: 280px;
     margin-bottom: 0px;
-
 }
 
 header#cabecalho h2
@@ -60,6 +73,7 @@ header#cabecalho h2
     color: #888888;
     font-size: 15px;
     padding: 0px;
+    margin-left: 280px;
     margin-top: 0px;
 }
 
@@ -144,7 +158,7 @@ nav#menu a:hover
 section#corpo
 {
     display: block;
-    width: 520px;
+    width: 500px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
@@ -152,11 +166,40 @@ section#corpo
 
 article#noticia-principal h2
 {
-    font-size: 12px;
+    font-size: 13pt;
     color: #606060;
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1
+{
+    font-family: 'FonteELogo', sans-serif;
+    font-size: 20px;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.direita
+{
+    text-align: right;
+}
+
+header#cabecalho-artigo h2
+{
+    font-size: 13px;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3
+{
+    font-size: 12px;
+    color: #606060;
+
 }
 
 table#tabelaSpec
@@ -209,6 +252,27 @@ aside#lateral
     display: block;
     width: 350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+
+}
+
+aside#lateral h1
+{
+    font-family: 'FonteELogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2
+{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
 }
 
 footer#rodape
